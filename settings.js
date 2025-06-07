@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~ljMSCCxA#NQdNbuXGYNvvUr-gwp1Uf_TMRJZeXGVlcqDHahBDTjU",
+SESSION_ID: process.env.SESSION_ID || "malvin~4qVxDSaZ#sxJYxHpnKpp9JS1XZthy95I_7m2bue8LPRVgfGstqF8",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -65,7 +65,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 
-          DELETE_LINKS: process.env.DELETE_LINKS || "false",
+          DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
           OWNER_NUMBER: process.env.OWNER_NUMBER || "918910051810",
@@ -88,7 +88,7 @@ OWNER_NAME: process.env.OWNER_NAME || "᭄ D A R K ࿐ ₁₀₀₀Ꮯ𝚁ᴜ͢�
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
-            AUTO_VOICE: process.env.AUTO_VOICE || "false",
+            AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
